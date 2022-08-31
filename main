@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+	
+	int* p;
+	int a = 9;
+	p = &a;
+	printf(" p=%p\n",p);
+	printf("&a=%p\n",&a);
+	//得出结论：应该理解为int* p，p是指针变量，int* 相当于一种类型
+  //*p是不存在的，若出现则报错
+	
+	
+	
+	
+	
+	return 0;
+ } 
